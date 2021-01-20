@@ -1,0 +1,288 @@
+/*
+Theme Name: Freeblx
+Author: Gulam Faruk
+Author URI: https://facebook.com/gulamfrk
+Version: 1.0
+Text Domain: freeblx
+
+Description: Freeblx brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats.
+
+
+
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+div.header_top{
+    background: #f7e6e645 url(../images/bg/lightpaperfibers.png) repeat;
+    margin-top: 0px;
+    border-bottom: 1px solid #1d1b18;
+}
+div.social_container {
+    padding: 7px 0px;
+}
+
+ul.social_menu{
+    width: 30%;
+	list-style:none;
+	position:relative;
+	display:inline;
+	float:left;
+}
+
+ul.social_menu li{
+    display: inline-block;
+	padding: 3px 5px;
+    background: #261b0d url(../images/rausch.png) repeat;
+    border: 1px solid rgba(0, 0, 0, 0.3) inset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.3) inset;
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3) inset;
+} 
+
+ul.social_menu li a {
+	float:left;
+	color:#b6abab;
+}
+/*Header Contact Done*/
+
+
+div.ph_Eml{
+	width: 30%;
+    overflow: hidden;
+    margin-top: 8px;
+	float:right;
+	display:inline;
+
+}
+
+div.ph_Eml a{
+	color: #ada6a6;
+	font-family:lato;
+	font-size:15px;
+	font-weight:bold;
+	padding: 3px 16px 0 6px;	
+}
+div.ph_Eml b{
+	color: #ada6a6;
+	font-family:lato;
+	font-size:15px;
+	font-weight:bold;
+	padding:3px 3px
+}
+
+
+/*Start Our Search Iteam Here */	
+#Search{
+	width:40%;
+    float: left;
+	display:inline;
+}	
+#Search input{
+    width: 70%;
+    float: left;
+    padding: 7.5px 0px 7.5px 12px;
+    border: 1px solid #262424cc;
+    border-radius: 12px 0px 0px 10px;
+    background: none;
+    position: relative;
+    transition: all 1s ease;
+}
+ 
+#Search button{
+    width: 66px;
+    float: right;
+    margin-top: 0px;
+	margin-left:-51px;
+    padding: 7px 14px;
+    border: 0px solid black;
+    border-radius: 0px 12px 10px 0px;
+    background: #000;
+    text-align: center;
+    position:absolute;
+    font-family: lato;
+    font-size: 15px;
+    box-shadow: inset -1px -2px 5px 0px black;
+	transition: all 0.7s ease;
+	color: #fff;
+	outline:none;
+}
+
+/*Search Iteam Done*/
+
+
+
+
+
+
+
+
+
+
+img{width:100%;height:auto;}
+h3.singlePost_title a h3{
+	color: #261b0d;
+    font-family: 'Oswald', serif;
+    font-weight: normal;
+	font-size:21px;
+	line-height:28px;
+	padding:15px 0;
+    text-transform: uppercase;
+}
+
+article.post img.wp-post-image {
+    position: relative;
+    -moz-box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.4);
+	width:100%;
+	height:375px;
+}
+div#post_meta{
+	
+	border:1px solid #ddd;
+	padding:10px;
+	text-transform:uppercase;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.singleimg {
+    margin-top: 10px;
+	margin-left:-5px;
+}
+ul#menu-top-main-menu li.current-menu-item a {
+    border-bottom: 3px solid #e8ded1;
+    color: #fff;
+}
+div#separat{margin-top:20px;clear:both;}
+
+ul.slides.sliderblog_imagesize li img {
+	width:100%;
+    height:375px;
+}
+
+/* Custom Pagination */
+div#pagination {
+    margin-right: 100px;
+    width: 60%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+
+ul.pagination_area h2.screen-reader-text {
+	color: black ;
+	font-size:18px;
+	padding: 10px;
+    background: #dddddd1f;
+	text-transform:capitalize;
+	text-align: center;
+	display:inline-block;
+}
+div.nav-links {
+    position: relative;
+    top: -61px;
+    left: 105px;
+	font-weight: bold;
+    width: 100%;
+    height: auto;
+}
+ul.pagination_area span{
+	float: left;
+    padding: 0px 5px;
+}
+span.page-numbers.dots {
+    position: relative;
+    top: 18px;
+}
+ul.pagination_area a.page-numbers:hover{	
+	background: #f07272;
+    color: white;}
+ul.pagination_area a.page-numbers {
+    float: left;
+	margin: 10px 4px;
+    padding: 10px;
+    background: #dddddd1f;
+    display: inline-block;
+    color: #171616c4;
+	border-radius:10px;
+    
+}
+ul.pagination_area span.current{
+	background: #f07272;
+    color: white;
+	float: left;
+	margin: 10px;
+    padding: 10px;
+	display: inline-block;
+	border-radius: 10px;}
+/*
+background:#f5c1d338;
+a.page_link:active {
+background:#6d9ff5eb;
+}
+*/
+
+/*	Custom Tags Item */
+div.tags{
+	display:block;
+	overflow:hidden;
+	margin:20px 0px;
+}
+div.tags span{
+	color: white;
+    background: #76a3f1c2;
+    padding: 10px;
+    margin-right:20px;
+	font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+	display: inline-block;
+}
+div.tags a {
+    color: white;
+    background:#f072729e;
+    padding: 10px;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0px 3px;
+	text-transform:capitalize
+}
+div.flexslider ul.slides img{
+	min-height:375px !important;
+	max-height:450px !important;
+	overflow:hidden;
+	display:block;
+}
+div.flexslider ul.slides section.caption{
+	    background: rgba(234, 214, 189, 0.49);
+		left:12%;
+		top:10%;
+}
+div.flexslider ul.slides section.caption h2 {
+    color: #2d2010;
+    font-size: 20px;
+    margin-bottom: -15px;
+    line-height: 30px;
+}
+
+/*Foooter Tag Clouds*/
+.tagcloud a.tag-cloud-link {
+    color: black;
+    font-size: 14px !important;
+    padding: 10px;
+    background: brown;
+    display: inline-block;
+    margin: 1px;
+}
+div.one_fourth{
+    max-width: 21%;
+}
+.one_fourth div#gallery-1 .gallery-item {
+    margin:5px 3px;
+	max-width:30%;
+}
+
